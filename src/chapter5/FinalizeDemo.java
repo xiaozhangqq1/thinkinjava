@@ -1,4 +1,4 @@
-package charpter5;
+package chapter5;
 
 /**
  * 编写具有finalize()方法的类，并在方法中打印消息，在main()中为该类创建一个对象。试解释这个程序的行为

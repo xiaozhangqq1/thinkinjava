@@ -1,4 +1,4 @@
-package charpter5;
+package chapter5;
 
 public class ThisDemo1 {
     public static void main(String [] args){

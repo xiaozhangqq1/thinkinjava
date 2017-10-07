@@ -1,4 +1,4 @@
-package charpter5;
+package chapter5;
 
 public class ConstructorDemo {
     public static void main(String [] args){

@@ -1,4 +1,4 @@
-package charpter5;
+package chapter5;
 
 class Cup{
     Cup(int marker){
