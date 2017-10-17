@@ -14,14 +14,15 @@ public class ArrayDemo {
         }
     }
     // 写一个类，它接受一个可变参数的String数组。验证你可以向该方法传递一个用逗号分隔的String列表，或是一个String[].
-    static void f(String...strings){
+   ArrayDemo(String...strings){
         for (String s : strings){
             System.out.println(s);
         }
     }
-    // todo 创建一个使用可变参数列表而不是普通的main()语法的main().打印所产生的args数组的所有元素，并用各种不同数量的命令行
+    // 创建一个使用可变参数列表而不是普通的main()语法的main().打印所产生的args数组的所有元素，并用各种不同数量的命令行
     // 参数来测试它。
     public static void main(String...args){
+        new ArrayDemo(new String[]{"4","5"});
         for (String s : args){
             System.out.println(s);
         }
