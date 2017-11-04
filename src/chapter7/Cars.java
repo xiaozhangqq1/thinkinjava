@@ -1,8 +1,12 @@
 package chapter7;
 
+class ServicableEngine extends Engines{
+    public void service(){}
+}
 
 public class Cars {
-    public Engines engines = new Engines();
+    public ServicableEngine engines = new ServicableEngine();
+
     public Wheel[] wheels = new Wheel[4];
     public Door
             left = new Door(),
@@ -17,9 +21,9 @@ public class Cars {
         Cars car = new Cars();
         car.left.window.rollup();
         car.wheels[0].inflate(72);
+        car.engines.service();
+
     }
-
-
 }
 
 class Engines{
