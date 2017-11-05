@@ -26,3 +26,9 @@ class MoreOverLoads extends ThreeOverLoads{
     }
 }
 
+//想要调用protected，必须继承，成为其子类
+class testProtected extends Practice15{
+    void doi(){
+        test();
+    }
+}
