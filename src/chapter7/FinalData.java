@@ -45,4 +45,8 @@ public class FinalData {
         System.out.println(fd1);
         System.out.println(fd2);
     }
-}
+}/*
+        fd1:i4=15,INT_5=18
+        Creating new FinalData
+        fd1:i4=15,INT_5=18
+        fd2:i4=13,INT_5=18*/
