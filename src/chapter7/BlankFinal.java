@@ -5,7 +5,7 @@ public class BlankFinal {
     private final int j;
     private final Poppet p;
     public BlankFinal(){
-        i = 1;
+        j = 1;
         p = new Poppet(1);
     }
     public BlankFinal(int x){
