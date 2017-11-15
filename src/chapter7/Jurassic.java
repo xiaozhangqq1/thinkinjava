@@ -6,6 +6,8 @@ public class Jurassic {
         n.f();
         n.i = 40;
         n.j++;
+        System.out.println(n.i);
+        System.out.println(n.j++);
     }
 }
 
@@ -14,6 +16,7 @@ final class Dinosaur{
     int j = 1;
     SmallBrain x = new SmallBrain();
     void f(){}
+
 }
 
 class SmallBrain{}
