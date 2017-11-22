@@ -1,7 +1,16 @@
 package chapter8;
 
 public class Circle extends Shape {
-    public void draw(){
-        System.out.println();
+    @Override
+    public void draw() {
+        System.out.println("Circle draw()");
     }
+
+    @Override
+    public void erase() {
+        System.out.println("Circle erase()");
+    }
+    @Override
+    public void msg(){
+        System.out.println("我是覆盖打印啦");}
 }
