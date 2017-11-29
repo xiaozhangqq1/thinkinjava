@@ -16,6 +16,8 @@ class InstrumentGenerator{
         switch (gen.nextInt(6)){
             default:
             case 0: return new Wind();
+            case 1: return new Percussion();
+            case 2: return new Stringed();
         }
     }
 }
