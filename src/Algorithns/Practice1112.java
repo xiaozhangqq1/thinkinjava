@@ -10,12 +10,16 @@ public class Practice1112 {
         for (int i = 0; i < 10; i++) {
             a[i] = 9 - i;
         }
-        for (int j =0;j<a.length;j++){
-            System.out.println(a[j]);
+//        for (int j =0;j<a.length;j++){
+//            System.out.println(a[j]);
+//        }
+
+        for (int i = 0;i<10;i++){
+            a[i] = a[a[i]];
         }
 
-        for (int k = 0;k<10;k++){
-            a[k] = a[a[k]];
+        for(int i = 0;i<10;i++){
+            System.out.println(i);
         }
     }
 }
