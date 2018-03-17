@@ -32,4 +32,12 @@ class Counter {
     Counter(String id) {
 
     }
+
+    @Override
+    public String toString() {
+        return "Counter{" +
+                "id='" + id + '\'' +
+                ", count=" + count +
+                '}';
+    }
 }
