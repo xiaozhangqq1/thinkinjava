@@ -22,7 +22,7 @@ class Counter {
 
     void increment() {
         id = id + 1;
-        count = count + 1;
+        System.out.println(id);
     }
 
     int tally() {
@@ -30,7 +30,7 @@ class Counter {
     }
 
     Counter(String id) {
-
+        this.id = id;
     }
 
     @Override
