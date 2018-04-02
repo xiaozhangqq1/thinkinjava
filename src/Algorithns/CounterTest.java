@@ -7,9 +7,9 @@ public class CounterTest {
 
     public static void main(String[] args) {
 
-        Counter c1 = new Counter("ones");
+        Counters c1 = new Counters("ones");
         c1.increment();
-        Counter c2 = c1;
+        Counters c2 = c1;
         c2.increment();
         System.out.println(c1);
     }
@@ -39,5 +39,26 @@ class Counter {
                 "id='" + id + '\'' +
                 ", count=" + count +
                 '}';
+    }
+}
+
+class Counters {
+    private final String name;
+    private int count;
+
+    Counters(String name) {
+        this.name = name;
+    }
+
+    public void increment() {
+        count++;
+    }
+
+    public int tally() {
+        return count;
+    }
+
+    public String toString() {
+        return count + "" + name;
     }
 }
